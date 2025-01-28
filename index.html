@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mostafa Yassin - Portfolio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-gray-100 font-poppins">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white/80 backdrop-blur-md shadow-sm z-50">
+      <div class="container mx-auto px-4">
+        <div class="flex items-center justify-between h-16">
+          <a href="#" class="text-2xl font-bold text-blue-900">Mostafa</a>
+          <div class="hidden md:flex space-x-8">
+            <a href="#about" class="text-gray-700 hover:text-blue-600 transition-colors">About</a>
+            <a href="#certifications" class="text-gray-700 hover:text-blue-600 transition-colors">Certifications</a>
+            <a href="#projects" class="text-gray-700 hover:text-blue-600 transition-colors">Projects</a>
+            <a href="#skills" class="text-gray-700 hover:text-blue-600 transition-colors">Skills</a>
+          </div>
+          <a href="mailto:mostafa.yassin94@outlook.com" class="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-700 transition-colors">Contact Me</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="about" class="min-h-screen bg-gradient-to-br from-blue-900 to-gray-900 text-white relative overflow-hidden pt-16">
+      <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')] opacity-10"></div>
+      <div class="absolute inset-0 bg-gradient-to-b from-blue-900/50 to-gray-900/50"></div>
+      <div class="container mx-auto px-4 py-20 relative">
+        <div class="flex flex-col md:flex-row items-center justify-between">
+          <div class="md:w-1/2" data-aos="fade-right">
+            <div class="inline-block mb-4 px-4 py-1 bg-blue-500/20 rounded-full">
+              <span class="text-blue-300">Available for freelance work</span>
+            </div>
+            <h1 class="text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-teal-400">
+              Mostafa Yassin
+              <span class="block text-2xl mt-2 text-blue-300">Front-End Developer & WordPress Expert</span>
+            </h1>
+            <p class="text-gray-300 mb-8 text-lg leading-relaxed">
+              Experienced developer specializing in crafting responsive, user-friendly, and visually engaging websites. 
+              AWS Certified Cloud Practitioner with hands-on expertise in modern web technologies and cloud-based solutions.
+            </p>
+            <div class="space-y-4 text-lg backdrop-blur-sm bg-white/5 p-6 rounded-xl mb-8">
+              <p class="flex items-center space-x-4">
+                <span class="w-10 h-10 flex items-center justify-center bg-blue-500/20 rounded-full">📱</span>
+                <span>(+20) 1508706870</span>
+              </p>
+              <p class="flex items-center space-x-4">
+                <span class="w-10 h-10 flex items-center justify-center bg-blue-500/20 rounded-full">📧</span>
+                <span>mostafa.yassin94@outlook.com</span>
+              </p>
+              <p class="flex items-center space-x-4">
+                <span class="w-10 h-10 flex items-center justify-center bg-blue-500/20 rounded-full">📍</span>
+                <span>Cairo, Egypt</span>
+              </p>
+            </div>
+            <div class="flex space-x-4">
+              <a href="https://linkedin.com/in/mostafa-yassin-5018b421a/" 
+                 class="group relative px-8 py-3 bg-gradient-to-r from-blue-600 to-blue-700 rounded-full inline-block transition-all duration-300 transform hover:scale-105 hover:shadow-xl">
+                <span class="relative z-10">LinkedIn</span>
+                <div class="absolute inset-0 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              </a>
+              <a href="https://github.com/mo-yassin94" 
+                 class="group relative px-8 py-3 bg-gradient-to-r from-gray-700 to-gray-800 rounded-full inline-block transition-all duration-300 transform hover:scale-105 hover:shadow-xl">
+                <span class="relative z-10">GitHub</span>
+                <div class="absolute inset-0 bg-gradient-to-r from-gray-600 to-gray-700 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              </a>
+            </div>
+          </div>
+          <div class="md:w-1/2 mt-8 md:mt-0 relative" data-aos="fade-left">
+            <div class="absolute inset-0 bg-gradient-to-r from-blue-500 to-teal-500 rounded-lg transform rotate-6 blur-lg opacity-30"></div>
+            <img src="./public/mostafa.jpg" alt="Mostafa Yassin" 
+                 class="relative rounded-lg shadow-2xl transform hover:scale-105 transition-transform duration-300">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-20 bg-white relative overflow-hidden">
+      <div class="absolute inset-0 bg-gradient-to-b from-gray-50 to-white"></div>
+      <div class="container mx-auto px-4 relative">
+        <h2 class="text-4xl font-bold text-center mb-4" data-aos="fade-up">Professional Certifications</h2>
+        <p class="text-gray-600 text-center mb-12 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="100">
+          Validated expertise through industry-recognized certifications in cloud computing and front-end development.
+        </p>
+        <div class="grid md:grid-cols-2 gap-8">
+          <!-- AWS Certification -->
+          <div class="group bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl p-8 text-white shadow-xl transform hover:scale-105 transition-all duration-300" 
+               data-aos="fade-right">
+            <div class="flex items-start space-x-6">
+              <div class="w-24 h-24 bg-white rounded-lg p-2 transform group-hover:scale-110 transition-transform duration-300">
+                <img src="https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" 
+                     alt="AWS Certificate" 
+                     class="w-full h-full object-contain">
+              </div>
+              <div class="flex-1">
+                <h3 class="text-2xl font-bold mb-2 group-hover:text-blue-400 transition-colors">AWS Certified Cloud Practitioner</h3>
+                <p class="text-gray-300 mb-4">Amazon Web Services (AWS)</p>
+                <div class="space-y-2 mb-4">
+                  <p class="text-sm text-gray-400">• Cloud computing fundamentals and AWS services</p>
+                  <p class="text-sm text-gray-400">• Security and compliance in the cloud</p>
+                  <p class="text-sm text-gray-400">• Cloud architecture and pricing models</p>
+                </div>
+                <a href="https://www.credly.com/badges/eebc25e1-cf91-4509-9d01-3ceb9f6a6402/linked_in_profile" 
+                   class="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors">
+                  <span>Verify Certificate</span>
+                  <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Udacity Certification -->
+          <div class="group bg-gradient-to-br from-blue-900 to-blue-800 rounded-xl p-8 text-white shadow-xl transform hover:scale-105 transition-all duration-300" 
+               data-aos="fade-left">
+            <div class="flex items-start space-x-6">
+              <div class="w-24 h-24 bg-white rounded-lg p-2 transform group-hover:scale-110 transition-transform duration-300">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Udacity_logo.png" 
+                     alt="Udacity Certificate" 
+                     class="w-full h-full object-contain">
+              </div>
+              <div class="flex-1">
+                <h3 class="text-2xl font-bold mb-2 group-hover:text-blue-400 transition-colors">Professional Front-End Developer</h3>
+                <p class="text-gray-300 mb-4">Udacity</p>
+                <div class="space-y-2 mb-4">
+                  <p class="text-sm text-gray-400">• Advanced JavaScript and ES6+ features</p>
+                  <p class="text-sm text-gray-400">• Modern web development workflows</p>
+                  <p class="text-sm text-gray-400">• Responsive design and optimization</p>
+                </div>
+                <a href="https://www.udacity.com/certificate/e/62d7c02a-8445-11ec-b6ac-3705c6eccc52" 
+                   class="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors">
+                  <span>Verify Certificate</span>
+                  <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gray-50 relative">
+      <div class="absolute inset-0 bg-gradient-to-b from-white to-gray-50"></div>
+      <div class="container mx-auto px-4 relative">
+        <h2 class="text-4xl font-bold text-center mb-4" data-aos="fade-up">Featured Projects</h2>
+        <p class="text-gray-600 text-center mb-12 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="100">
+          A showcase of my recent work, demonstrating expertise in web development, WordPress, and technical support.
+        </p>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Telecom Egypt Position -->
+          <div class="group bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition-all duration-300" 
+               data-aos="fade-up">
+            <div class="bg-gradient-to-r from-blue-900 to-blue-800 text-white p-6">
+              <div class="flex items-center justify-between mb-4">
+                <h3 class="text-xl font-bold">Technical Support Specialist</h3>
+                <span class="px-3 py-1 bg-blue-700/50 rounded-full text-sm">Current Role</span>
+              </div>
+              <p class="text-blue-200">Telecom Egypt</p>
+            </div>
+            <div class="p-6">
+              <p class="text-gray-600 mb-4 flex items-center">
+                <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                03/2024 – Present | New Capital, Egypt
+              </p>
+              <ul class="list-none space-y-3 text-gray-700 mb-6">
+                <li class="flex items-start">
+                  <svg class="w-5 h-5 mr-2 text-blue-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                  </svg>
+                  <span>90% first-contact resolution rate for customer technical issues</span>
+                </li>
+                <li class="flex items-start">
+                  <svg class="w-5 h-5 mr-2 text-blue-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                  </svg>
+                  <span>Expert in live chat technical support and problem resolution</span>
+                </li>
+                <li class="flex items-start">
+                  <svg class="w-5 h-5 mr-2 text-blue-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                  </svg>
+                  <span>Advanced system diagnostics and troubleshooting skills</span>
+                </li>
+              </ul>
+              <div class="flex flex-wrap gap-2">
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Diagnostic Scripts</span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">CRM Tools</span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Technical Support</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Real Estate Platform -->
+          <div class="group bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition-all duration-300" 
+          data-aos="fade-up">
+       <div class="bg-gradient-to-r from-sky-900 to-sky-800 text-white p-6">
+         <div class="flex items-center justify-between mb-4">
+           <h3 class="text-xl font-bold">Wordpress Developer</h3>
+           <span class="px-3 py-1 bg-sky-700/50 rounded-full text-sm">Current Role</span>
+         </div>
+         <p class="text-sky-200">Real Estate Platform</p>
+       </div>
+       <div class="p-6">
+         <p class="text-gray-600 mb-4 flex items-center">
+           <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+           </svg>
+           10/2023 – 3/2024 | New Cairo, Egypt
+         </p>
+         <ul class="list-none space-y-3 text-gray-700 mb-6">
+           <li class="flex items-start">
+             <svg class="w-5 h-5 mr-2 text-sky-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+             </svg>
+             <span>A modern real estate platform featuring property listings, advanced search functionality, and virtual tours.</span>
+           </li>
+           <li class="flex items-start">
+             <svg class="w-5 h-5 mr-2 text-sky-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+             </svg>
+             <span>Advanced property search</span>
+           </li>
+           <li class="flex items-start">
+             <svg class="w-5 h-5 mr-2 text-sky-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+             </svg>
+             <span>Virtual property tours and Agent profiles</span>
+           </li>
+         </ul>
+         <div class="flex flex-wrap gap-2">
+           <span class="px-3 py-1 bg-blue-100 text-sky-800 rounded-full text-sm">Google Maps API</span>
+           <span class="px-3 py-1 bg-blue-100 text-sky-800 rounded-full text-sm">MySQL</span>
+           <span class="px-3 py-1 bg-blue-100 text-sky-800 rounded-full text-sm">WordPress</span>
+           <span class="px-3 py-1 bg-blue-100 text-sky-800 rounded-full text-sm">PHP</span>
+
+         </div>
+       </div>
+     </div>
+
+          <!-- E-Commerce Dashboard Platform -->
+
+     <div class="group bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition-all duration-300" 
+     data-aos="fade-up">
+  <div class="bg-gradient-to-r from-yellow-600 to-yellow-800 text-white p-6">
+    <div class="flex items-center justify-between mb-4">
+      <h3 class="text-xl font-bold">Wordpress Developer</h3>
+      <span class="px-3 py-1 bg-yellow-700/50 rounded-full text-sm">Current Role</span>
+    </div>
+    <p class="text-sky-200">E-Commerce Dashboard</p>
+  </div>
+  <div class="p-6">
+    <p class="text-gray-600 mb-4 flex items-center">
+      <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+      </svg>
+      2022  | New Cairo, Egypt
+    </p>
+    <ul class="list-none space-y-3 text-gray-700 mb-6">
+      <li class="flex items-start">
+        <svg class="w-5 h-5 mr-2 text-yellow-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+        </svg>
+        <span>A comprehensive admin dashboard for managing an e-commerce platform with real-time analytics and inventory management.</span>
+      </li>
+      <li class="flex items-start">
+        <svg class="w-5 h-5 mr-2 text-yellow-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+        </svg>
+        <span>Real-time sales analytics</span>
+      </li>
+      <li class="flex items-start">
+        <svg class="w-5 h-5 mr-2 text-yellow-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+        </svg>
+        <span>Inventory management and Order processing</span>
+      </li>
+    </ul>
+    <div class="flex flex-wrap gap-2">
+      <span class="px-3 py-1 bg-blue-100 text-yellow-800 rounded-full text-sm">Google Maps API</span>
+      <span class="px-3 py-1 bg-blue-100 text-yellow-800 rounded-full text-sm">MySQL</span>
+      <span class="px-3 py-1 bg-blue-100 text-yellow-800 rounded-full text-sm">WordPress</span>
+      <span class="px-3 py-1 bg-blue-100 text-yellow-800 rounded-full text-sm">PHP</span>
+      
+
+    </div>
+  </div>
+</div>
+
+    <!-- E-Commerce Dashboard Platform -->
+
+    <div class="group bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition-all duration-300" 
+    data-aos="fade-up">
+ <div class="bg-gradient-to-r from-gray-600 to-gray-800 text-gray p-6">
+   <div class="flex items-center justify-between mb-4">
+     <h3 class="text-xl font-bold text-white">Wordpress Developer</h3>
+     <span class="px-3 py-1 bg-gray-700/50 rounded-full text-sm text-white">Current Role</span>
+   </div>
+   <p class="text-gray-200">Restaurant Management App</p>
+ </div>
+ <div class="p-6">
+   <p class="text-gray-600 mb-4 flex items-center">
+     <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+     </svg>
+     2022  | New Cairo, Egypt
+   </p>
+   <ul class="list-none space-y-3 text-gray-700 mb-6">
+     <li class="flex items-start">
+       <svg class="w-5 h-5 mr-2 text-gray-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+       </svg>
+       <span>A comprehensive solution for restaurant operations including order management and inventory control.</span>
+     </li>
+     <li class="flex items-start">
+       <svg class="w-5 h-5 mr-2 text-gray-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+       </svg>
+       <span>Order management</span>
+     </li>
+     <li class="flex items-start">
+       <svg class="w-5 h-5 mr-2 text-gray-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+       </svg>
+       <span>Table reservations and Inventory tracking</span>
+     </li>
+   </ul>
+   <div class="flex flex-wrap gap-2">
+     <span class="px-3 py-1 bg-blue-100 text-gray-800 rounded-full text-sm">Google Maps API</span>
+     <span class="px-3 py-1 bg-blue-100 text-gray-800 rounded-full text-sm">MySQL</span>
+     <span class="px-3 py-1 bg-blue-100 text-gray-800 rounded-full text-sm">WordPress</span>
+     <span class="px-3 py-1 bg-blue-100 text-gray-800 rounded-full text-sm">PHP</span>
+     
+
+   </div>
+ </div>
+</div>
+
+          <!-- Awraquna Project -->
+          <div class="group bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition-all duration-300" 
+               data-aos="fade-up" data-aos-delay="100">
+            <div class="bg-gradient-to-r from-green-900 to-green-800 text-white p-6">
+              <div class="flex items-center justify-between mb-4">
+                <h3 class="text-xl font-bold">WordPress Website</h3>
+                <span class="px-3 py-1 bg-green-700/50 rounded-full text-sm">Completed</span>
+              </div>
+              <p class="text-green-200">Awraquna Company</p>
+            </div>
+            <div class="p-6">
+              <p class="text-gray-600 mb-4 flex items-center">
+                <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                09/2023 – 03/2024 | Dammam, Saudi Arabia
+              </p>
+              <ul class="list-none space-y-3 text-gray-700 mb-6">
+                <li class="flex items-start">
+                  <svg class="w-5 h-5 mr-2 text-green-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                  </svg>
+                  <span>Developed fully responsive WordPress website with custom themes</span>
+                </li>
+                <li class="flex items-start">
+                  <svg class="w-5 h-5 mr-2 text-green-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                  </svg>
+                  <span>Integrated custom plugins and APIs for enhanced functionality</span>
+                </li>
+                <li class="flex items-start">
+                  <svg class="w-5 h-5 mr-2 text-green-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                  </svg>
+                  <span>Achieved 30% increase in organic traffic through SEO optimization</span>
+                </li>
+                <li class="flex items-start">
+                  <svg class="w-5 h-5 mr-2 text-green-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                  </svg>
+                  <span>Implemented performance optimizations for faster load times</span>
+                </li>
+              </ul>
+              <div class="flex flex-wrap gap-2">
+                <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">WordPress</span>
+                <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">PHP</span>
+                <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">SEO</span>
+                <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">API Integration</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- El Rowad Project -->
+          <div class="group bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition-all duration-300" 
+               data-aos="fade-up" data-aos-delay="200">
+            <div class="bg-gradient-to-r from-purple-900 to-purple-800 text-white p-6">
+              <div class="flex items-center justify-between mb-4">
+                <h3 class="text-xl font-bold">Frontend Developer</h3>
+                <span class="px-3 py-1 bg-purple-700/50 rounded-full text-sm">Completed</span>
+              </div>
+              <p class="text-purple-200">El Rowad Construction Company</p>
+            </div>
+            <div class="p-6">
+              <p class="text-gray-600 mb-4 flex items-center">
+                <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+                06/2023 – 11/2023 | New Capital, Egypt
+              </p>
+              <ul class="list-none space-y-3 text-gray-700 mb-6">
+                <li class="flex items-start">
+                  <svg class="w-5 h-5 mr-2 text-purple-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                  </svg>
+                  <span>Built custom PHP-based platform with dynamic content management</span>
+                </li>
+                <li class="flex items-start">
+                  <svg class="w-5 h-5 mr-2 text-purple-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                  </svg>
+                  <span>Implemented responsive design for all device types</span>
+                </li>
+                <li class="flex items-start">
+                  <svg class="w-5 h-5 mr-2 text-purple-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                  </svg>
+                  <span>Created interactive project galleries with filtering</span>
+                </li>
+                <li class="flex items-start">
+                  <svg class="w-5 h-5 mr-2 text-purple-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                  </svg>
+                  <span>Optimized database queries for improved performance</span>
+                </li>
+              </ul>
+              <div class="flex flex-wrap gap-2">
+                <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm">PHP</span>
+                <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm">JavaScript</span>
+                <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm">MySQL</span>
+                <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm">Bootstrap</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-white relative">
+      <div class="absolute inset-0 bg-gradient-to-b from-gray-50 to-white"></div>
+      <div class="container mx-auto px-4 relative">
+        <div class="grid md:grid-cols-2 gap-12">
+          <!-- Technical Skills -->
+          <div data-aos="fade-right">
+            <h2 class="text-3xl font-bold mb-8">Technical Expertise</h2>
+            <div class="space-y-8">
+              <div class="bg-gray-50 rounded-xl p-6 shadow-lg">
+                <h3 class="font-semibold mb-4 text-xl text-blue-900">Programming Languages</h3>
+                <div class="flex flex-wrap gap-3">
+                  <span class="px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full text-md font-medium shadow-md">HTML5</span>
+                  <span class="px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full text-md font-medium shadow-md">CSS3</span>
+                  <span class="px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full text-md font-medium shadow-md">JavaScript</span>
+                  <span class="px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full text-md font-medium shadow-md">PHP</span>
+                  <span class="px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full text-md font-medium shadow-md">MySQL</span>
+                </div>
+              </div>
+              <div class="bg-gray-50 rounded-xl p-6 shadow-lg">
+                <h3 class="font-semibold mb-4 text-xl text-blue-900">Frameworks & Tools</h3>
+                <div class="flex flex-wrap gap-3">
+                  <span class="px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full text-md font-medium shadow-md">React.js</span>
+                  <span class="px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full text-md font-medium shadow-md">Node.js</span>
+                  <span class="px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full text-md font-medium shadow-md">Bootstrap</span>
+                  <span class="px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full text-md font-medium shadow-md">WordPress</span>
+                  <span class="px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full text-md font-medium shadow-md">AWS</span>
+                </div>
+              </div>
+              <div class="bg-gray-50 rounded-xl p-6 shadow-lg">
+                <h3 class="font-semibold mb-4 text-xl text-blue-900">Professional Skills</h3>
+                <div class="flex flex-wrap gap-3">
+                  <span class="px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full text-md font-medium shadow-md">SEO</span>
+                  <span class="px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full text-md font-medium shadow-md">Responsive Design</span>
+                  <span class="px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full text-md font-medium shadow-md">Project Management</span>
+                  <span class="px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full text-md font-medium shadow-md">Problem Solving</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Education -->
+          <div data-aos="fade-left">
+            <h2 class="text-3xl font-bold mb-8">Education & Languages</h2>
+            <div class="bg-gray-50 rounded-xl p-8 shadow-lg space-y-8">
+              <div class="border-b border-gray-200 pb-8">
+                <h3 class="text-2xl font-semibold mb-4 text-blue-900">Academic Background</h3>
+                <div class="space-y-2">
+                  <p class="text-xl font-medium">Bachelor's Degree</p>
+                  <p class="text-lg text-gray-700">Ain Shams University</p>
+                  <p class="text-gray-600 flex items-center">
+                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10 M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                    </svg>
+                    2012 – 2016 | Cairo, Egypt
+                  </p>
+                </div>
+              </div>
+              <div>
+                <h3 class="text-2xl font-semibold mb-4 text-blue-900">Language Proficiency</h3>
+                <div class="space-y-4">
+                  <div class="flex items-center justify-between">
+                    <div>
+                      <p class="font-medium text-lg">Arabic</p>
+                      <p class="text-gray-600">Native Language</p>
+                    </div>
+                    <div class="w-24 h-2 bg-blue-200 rounded-full overflow-hidden">
+                      <div class="w-full h-full bg-blue-600"></div>
+                    </div>
+                  </div>
+                  <div class="flex items-center justify-between">
+                    <div>
+                      <p class="font-medium text-lg">English</p>
+                      <p class="text-gray-600">B1 (Intermediate)</p>
+                    </div>
+                    <div class="w-24 h-2 bg-blue-200 rounded-full overflow-hidden">
+                      <div class="w-3/4 h-full bg-blue-600"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+      <div class="container mx-auto px-4">
+        <div class="text-center">
+          <h2 class="text-2xl font-bold mb-4">Let's Work Together</h2>
+          <p class="text-gray-400 mb-6">Available for freelance projects and full-time opportunities</p>
+          <div class="flex justify-center space-x-6">
+            <a href="mailto:mostafa.yassin94@outlook.com" class="hover:text-blue-400 transition-colors">
+              <span class="sr-only">Email</span>
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+              </svg>
+            </a>
+            <a href="https://linkedin.com/in/mostafa-yassin-5018b421a/" class="hover:text-blue-400 transition-colors">
+              <span class="sr-only">LinkedIn</span>
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd"></path>
+              </svg>
+            </a>
+            <a href="https://github.com/mo-yassin94" class="hover:text-blue-400 transition-colors">
+              <span class="sr-only">GitHub</span>
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
